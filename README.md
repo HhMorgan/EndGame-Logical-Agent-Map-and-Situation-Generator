@@ -7,6 +7,6 @@ The solver function solves the grid that was generated as a search problem where
 ### Testing
     1) Copy the grid orientation generated and the situation sequence.
     2) Generate your KB for the agent from your fact generator implemented.
-    3) Input Snapped(\<Situation Squence\>) that was generated, your program should return true.
+    3) Input Snapped(<Situation Squence>) that was generated, your program should return true.
 <br>
 Good Luck!
