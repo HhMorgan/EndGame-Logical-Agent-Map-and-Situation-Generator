@@ -8,5 +8,18 @@ The solver function solves the grid that was generated as a search problem where
     1) Copy the grid orientation generated and the situation sequence.
     2) Generate your KB for the agent from your fact generator implemented.
     3) Input Snapped(<Situation Squence>) that was generated, your program should return true.
+### Example
+    Generated Grid : 5,5;1,1;2,0;4,2,0,2,3,4,2,3
+    Solved Grid Situation Sequence : result(snap,result(left,result(left,result(up,result(up,result(collect,result(left,result(left,result(down,result(collect,result(down,result(right,result(collect,result(down,result(down,result(right,result(collect,result(right,result(up,s0)))))))))))))))))))
+    1) After genrating the grid and the solution,
+    2) Open SWIProlog,
+    3) consult your file, 
+    4) and check for the correctness of the implementation by querying the solution as shown.
+    
+    Prolog Terminal : 
+    ?- Snapped(result(snap,result(left,result(left,result(up,result(up,result(collect,result(left,result(left,result(down,result(collect,result(down,result(right,result(collect,result(down,result(down,result(right,result(collect,result(right,result(up,s0)))))))))))))))))))).
+       true.
+
+
 <br>
 Good Luck!
